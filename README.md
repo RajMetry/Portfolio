@@ -14,7 +14,6 @@ https://github.com/RajMetry/Portfolio
 
 - Responsive HTML5 and CSS3 portfolio
 - Home, About, Skills, Projects, and Contact sections
-- Your profile photo and project artwork
 - LEFT EYE project showcase
 - Yepp / First Contributions open-source fork showcase
 - Contact form with required-field validation
@@ -26,7 +25,7 @@ https://github.com/RajMetry/Portfolio
 
 ## Built with
 
-HTML5 and CSS3. No JavaScript is used in this portfolio website.
+HTML5 and CSS3 is used in this portfolio website.
 
 ## Run locally
 
