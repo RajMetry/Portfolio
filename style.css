@@ -392,7 +392,7 @@ h1 span {
 }
 
 .project-card {
-  overflow:visible;
+  overflow:hidden;
   min-width:0;
   display:flex;
   flex-direction:column;
@@ -406,27 +406,20 @@ h1 span {
 
 .project-image-link {
   display:block;
-  width:100%;
-  aspect-ratio:16/7;
   overflow:hidden;
   border-bottom:1px solid var(--line);
   background:#0d1220
 }
 
 .project-image {
-  display:block;
   width:100%;
-  height:100%;
-  max-height:none;
-  aspect-ratio:auto;
-  object-fit:contain;
-  object-position:center;
-  transform:none;
-  transition:none
+  aspect-ratio:16/7;
+  object-fit:cover;
+  transition:transform .3s
 }
 
 .project-image-link:hover .project-image {
-  transform:none
+  transform:scale(1.025)
 }
 
 .project-content {
