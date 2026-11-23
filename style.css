@@ -413,8 +413,9 @@ h1 span {
 
 .project-image {
   width:100%;
-  aspect-ratio:16/7;
-  object-fit:cover;
+  aspect-ratio:20/7;
+  object-fit:contain;
+  background:#0d1220;
   transition:transform .3s
 }
 
