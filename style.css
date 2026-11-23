@@ -407,9 +407,8 @@ h1 span {
 .project-image-link {
   display:block;
   width:100%;
-  height:auto;
-  aspect-ratio:auto;
-  overflow:visible;
+  aspect-ratio:16/7;
+  overflow:hidden;
   border-bottom:1px solid var(--line);
   background:#0d1220
 }
@@ -417,13 +416,12 @@ h1 span {
 .project-image {
   display:block;
   width:100%;
-  max-width:100%;
-  height:auto !important;
+  height:100%;
   max-height:none;
   aspect-ratio:auto;
-  object-fit:unset;
+  object-fit:contain;
   object-position:center;
-  transform:none !important;
+  transform:none;
   transition:none
 }
 
