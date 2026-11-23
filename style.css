@@ -406,7 +406,9 @@ h1 span {
 
 .project-image-link {
   display:block;
-  overflow:hidden;
+  height:auto;
+  aspect-ratio:20/7;
+  overflow:visible;
   border-bottom:1px solid var(--line);
   background:#0d1220
 }
@@ -414,15 +416,17 @@ h1 span {
 .project-image {
   display:block;
   width:100%;
-  height:auto;
-  aspect-ratio:20/7;
-  object-fit:contain;
+  height:auto !important;
+  max-height:none;
+  aspect-ratio:auto;
+  object-fit:initial;
   object-position:center;
-  transition:transform .3s
+  transform:none !important;
+  transition:none
 }
 
 .project-image-link:hover .project-image {
-  transform:scale(1.025)
+  transform:none
 }
 
 .project-content {
