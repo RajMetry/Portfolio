@@ -6,6 +6,10 @@ Personal portfolio of Raj Mahesh Metry, first-year B.Tech Artificial Intelligenc
 
 https://rajmetry.github.io/Portfolio/
 
+## Source repository
+
+https://github.com/RajMetry/Portfolio
+
 ## What's inside
 
 - Responsive HTML5 and CSS3 portfolio
